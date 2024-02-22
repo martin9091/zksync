@@ -1,19 +1,16 @@
-# zkSync: scaling and privacy engine for Ethereum
-
+# zkSync: scaling and privacy 
 [![Logo](zkSyncLogo.svg)](https://zksync.io/)
 
-[![Live on Mainnet](https://img.shields.io/badge/wallet-Live%20on%20Mainnet-blue)](https://wallet.zksync.io)
-[![Live on Rinkeby](https://img.shields.io/badge/wallet-Live%20on%20Rinkeby-blue)](https://rinkeby.zksync.io)
-[![Live on Ropsten](https://img.shields.io/badge/wallet-Live%20on%20Ropsten-blue)](https://ropsten.zksync.io)
+
 
 zkSync is a scaling and privacy engine for Ethereum. Its current functionality scope includes low gas transfers of ETH
-and ERC20 tokens in the Ethereum network.
+and ERC20 tokens in  Ethereum network.
 
 ## Description
 
 zkSync is built on ZK Rollup architecture. ZK Rollup is an L2 scaling solution in which all funds are held by a smart
 contract on the mainchain, while computation and storage are performed off-chain. For every Rollup block, a state
-transition zero-knowledge proof (SNARK) is generated and verified by the mainchain contract. This SNARK includes the
+transition zero-knowledge  (SNARK) is generated and verified by the mainchain contract. This SNARK includes the
 proof of the validity of every single transaction in the Rollup block. Additionally, the public data update for every
 block is published over the mainchain network in the cheap calldata.
 
@@ -42,8 +39,8 @@ The following guides for developers are available:
 
 - [zkSync server](core/bin/server)
 - [zkSync prover](core/bin/prover)
-- [JavaScript SDK](sdk/zksync.js)
-- [Rust SDK](sdk/zksync-rs)
+
+
 
 ## Changelog
 
@@ -56,8 +53,4 @@ major parts:
 - [JavaScript SDK](changelog/js-sdk.md)
 - [Rust SDK](changelog/rust-sdk.md)
 
-## License
 
-zkSync is distributed under the terms of both the MIT license and the Apache License (Version 2.0).
-
-See [LICENSE-APACHE](LICENSE-APACHE), [LICENSE-MIT](LICENSE-MIT) for details.
